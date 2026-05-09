@@ -47,3 +47,9 @@ enableInlineShortcodes = true
     name = 'posts'
     url = '/posts/'
     weight = 20
+
+  [[menu.main]]
+    identifier = 'tags'
+    name = 'tags'
+    url = '/tags/'
+    weight = 30
