@@ -2,6 +2,13 @@
 
 .post__meta--date {
     margin-top: 0.35rem;
+    margin-bottom: 0.2rem;
     font-size: 0.9rem;
+    color: var(--muted);
+}
+
+.post__meta--tags {
+    margin-top: 0;
+    font-size: 0.8rem;
     color: var(--muted);
 }

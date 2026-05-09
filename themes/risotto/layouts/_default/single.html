@@ -2,6 +2,14 @@
     <header class="content__header">
         <h1>{{ .Title | markdownify }}</h1>
         {{ if .Date }}<p class="post__meta post__meta--date"><span class="date">{{ .Date.Format "2 January 2006" }}</span></p>{{ end }}
+        {{ with .GetTerms "tags" }}
+            <p class="post__meta post__meta--tags">
+                Tags:
+                {{ range $index, $tag := . }}
+                    {{ if $index }}, {{ end }}<a href="{{ $tag.Permalink }}">{{ $tag.LinkTitle }}</a>
+                {{ end }}
+            </p>
+        {{ end }}
     </header>
     <div class="content__body">
         {{ .Content }}
@@ -11,22 +19,6 @@
 
 {{define "aside" }}
     {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
-    {{ if or (.Params.author) (.Params.date) }}
-        <p>
-            {{ if .Params.author }}By {{ .Params.author }}{{ if .Date }}, {{ end }}{{ end }}
-            {{ if .Date }}{{ .Date.Format "2006-01-02" }}{{ end }}
-        </p>
-    {{ end }}
-
-    {{ with .GetTerms "tags" }}
-        <p>
-            Tags:
-            {{ range $index, $tag := . }}
-                {{ if $index }}, {{ end }}<a href="{{ $tag.Permalink }}">{{ $tag.LinkTitle }}</a>
-            {{ end }}
-        </p>
-    {{ end }}
-
     {{ if and (.Params.toc) (.TableOfContents) }}
 	    <hr>
 	    On this page:
