@@ -1,0 +1,12 @@
+<li>
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+    {{ with .GetTerms "tags" }}
+        <small>
+            (
+            {{ range $index, $tag := . }}
+                {{ if $index }}, {{ end }}<a href="{{ $tag.Permalink }}">{{ $tag.LinkTitle }}</a>
+            {{ end }}
+            )
+        </small>
+    {{ end }}
+</li>

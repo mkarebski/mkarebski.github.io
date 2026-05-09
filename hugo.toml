@@ -1,0 +1,49 @@
+baseURL = 'https://mkarebski.github.io/'
+languageCode = 'en-us'
+title = 'Mikolaj Karebski - Engineering Notes'
+theme = 'risotto'
+DefaultContentLanguage = 'en'
+enableInlineShortcodes = true
+
+[pagination]
+  pagerSize = 5
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  series = 'series'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+
+[params]
+  noindex = false
+
+[params.theme]
+  palette = 'material'
+
+[params.about]
+  title = 'Mikolaj Karebski - Engineering Notes'
+  description = 'Technical notes, experiments and thoughts on building reliable systems'
+  logo = '::'
+
+[[params.socialLinks]]
+  icon = 'fa-solid fa-envelope'
+  title = 'Email'
+  url = 'mailto:hello@example.com'
+
+[menu]
+  [[menu.main]]
+    identifier = 'about'
+    name = 'about'
+    url = '/about/'
+    weight = 10
+
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'posts'
+    url = '/posts/'
+    weight = 20
