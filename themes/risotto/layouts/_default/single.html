@@ -1,6 +1,7 @@
 {{ define "main" }}
     <header class="content__header">
         <h1>{{ .Title | markdownify }}</h1>
+        {{ if .Date }}<p class="post__meta post__meta--date"><span class="date">{{ .Date.Format "2 January 2006" }}</span></p>{{ end }}
     </header>
     <div class="content__body">
         {{ .Content }}
