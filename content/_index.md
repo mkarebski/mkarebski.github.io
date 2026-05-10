@@ -2,7 +2,7 @@
 title = 'Home'
 +++
 
-I’m Mikolaj Karebski, currently working in DevOps and based in Kielce, Poland.
+I’m Mikolaj Karebski, currently working in DevSecOps and based in Kielce, Poland.
 
 I’ve been working in IT for more than a decade. 
 
