@@ -33,3 +33,5 @@ I want to emphasize the word "helped." It didn't do it for me. The point is for 
 This way not only the AI is learning, but more importantly, we do.
 
 That’s why I’m not especially afraid of AI taking my place. What worries me more is people giving up the parts of the work that matter most: thinking, understanding, and taking responsibility. AI is at its best when it helps us grow into the work, not step away from it.
+
+-- MK
