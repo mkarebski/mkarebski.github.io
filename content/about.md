@@ -2,6 +2,8 @@
 title = 'What this blog is and what it is not?'
 +++
 
+<br>
+
 When I attended my first IT conference, Confitura in Warsaw, I noticed that many of the people I looked up to had blogs of their own. It left me with the feeling that if I wanted to grow into a more complete professional, I should probably have one too.
 
 Whether that was true or not, over more than ten years in IT I’ve come across many ideas, practices, and solutions that seem worth writing down and sharing.
@@ -13,4 +15,3 @@ Instead, this is a place for sharing my perspective, experience, and reflections
 Some topics stay with me for a long time before I write about them. Others are newer and more immediate.
 
 Either way, I hope you find something here that is useful, interesting, or thought-provoking.
-
