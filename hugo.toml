@@ -4,6 +4,7 @@ title = 'Mikolaj Karebski - Engineering Notes'
 theme = 'risotto'
 DefaultContentLanguage = 'en'
 enableInlineShortcodes = true
+enableRobotsTXT = true
 
 [pagination]
   pagerSize = 5
@@ -33,7 +34,7 @@ enableInlineShortcodes = true
 [[params.socialLinks]]
   icon = 'fa-solid fa-envelope'
   title = 'Email'
-  url = 'mailto:hello@example.com'
+  url = 'mailto:hello@karebski.dev'
 
 [menu]
   [[menu.main]]
