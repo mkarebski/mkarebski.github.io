@@ -25,6 +25,6 @@
 
 @media (min-width: 45rem) {
     .page {
-        grid-template-columns: minmax(0, 1fr) 25.5rem;
+        grid-template-columns: minmax(0, 1fr) 19rem;
     }
 }
