@@ -1,0 +1,35 @@
+/* Post metadata */
+.post__meta--date {
+    margin-top: 0.35rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+.post__meta--tags {
+    margin-top: 0;
+    font-size: 0.8rem;
+    color: var(--muted);
+}
+
+/* Keep the sidebar readable without horizontal overflow. */
+.page__aside {
+    overflow-wrap: anywhere;
+}
+
+.page__aside code {
+    white-space: normal;
+}
+
+@media (min-width: 45rem) {
+    .page {
+        grid-template-columns: minmax(0, 1fr) 16rem;
+    }
+}
+
+@media (max-width: 44.999rem) {
+    .page__aside {
+        max-height: none;
+        overflow: visible;
+    }
+}
