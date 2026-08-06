@@ -15,6 +15,8 @@
 /* Keep the sidebar readable without horizontal overflow. */
 .page__aside {
     overflow-wrap: anywhere;
+    max-height: none;
+    overflow: visible;
 }
 
 .page__aside code {
@@ -23,13 +25,6 @@
 
 @media (min-width: 45rem) {
     .page {
-        grid-template-columns: minmax(0, 1fr) 16rem;
-    }
-}
-
-@media (max-width: 44.999rem) {
-    .page__aside {
-        max-height: none;
-        overflow: visible;
+        grid-template-columns: minmax(0, 1fr) 17rem;
     }
 }
