@@ -15,3 +15,9 @@ Instead, this is a place for sharing my perspective, experience, and reflections
 Some topics stay with me for a long time before I write about them. Others are newer and more immediate.
 
 Either way, I hope you find something here that is useful, interesting, or thought-provoking.
+
+## PGP
+
+You can encrypt messages to me using my [PGP public key](/pgp/hello@karebski.dev.asc).
+
+Fingerprint: `AFFA A509 6D9A 0DDE 5386 2448 3B72 E02F FD36 C8A6`
