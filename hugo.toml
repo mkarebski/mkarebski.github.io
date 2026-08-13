@@ -1,4 +1,4 @@
-baseURL = 'https://mkarebski.github.io/'
+baseURL = 'https://blog.karebski.dev/'
 languageCode = 'en-us'
 title = 'Mikolaj Karebski - Engineering Notes'
 theme = 'risotto'
