@@ -1,5 +1,5 @@
 +++
-title = "Why we need IDLC"
+title = "Why do we need IDLC?"
 date = "2026-07-27"
 tags = ["idlc", "iac", "terraform", "pulumi"]
 +++

@@ -1,4 +1,10 @@
 /* Post metadata */
+.post-date {
+    display: inline-block;
+    width: 6rem;
+    white-space: nowrap;
+}
+
 .post__meta--date {
     margin-top: 0.35rem;
     margin-bottom: 0.2rem;

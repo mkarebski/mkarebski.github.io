@@ -1,5 +1,5 @@
 <li>
-    {{ if eq .Section "posts" }}<small class="post-date">({{ .Date.Format "January 2006" }})</small>{{ end }}
+    {{ if eq .Section "posts" }}<small class="post-date">({{ .Date.Format "Jan 2006" }})</small>{{ end }}
     <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
     {{ if ne .Section "posts" }}
     {{ with .GetTerms "tags" }}
